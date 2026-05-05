@@ -6,9 +6,12 @@ import 'core/constants/app_theme.dart';
 import 'features/dashboard/views/dashboard_view.dart';
 import 'services/hive_service.dart';
 import 'services/supabase_service.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  await dotenv.load(fileName: ".env"); // <-- Load the env file first
 
   // ── Hive local database ──────────────────────────────────────────────────
   await Hive.initFlutter();

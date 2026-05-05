@@ -1,12 +1,10 @@
 import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart'; 
 
 class SupabaseService {
-  // -----------------------------------------------------------------------
-  // TODO: Replace these placeholder values with your real Supabase project
-  // URL and anon key from: https://app.supabase.com → Project Settings → API
-  // -----------------------------------------------------------------------
-  static const String _supabaseUrl = 'https://kridzoqafghzdzlatqdl.supabase.co';
-  static const String _supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtyaWR6b3FhZmdoemR6bGF0cWRsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzNDEzMjcsImV4cCI6MjA4OTkxNzMyN30.w9tD0ME9t3zxXM35Mhe8vCRaKBKiJwS-EjQaJlnv5dg';
+
+  static const String _supabaseUrl = dotenv.env['SUPABASE_URL'];
+  static const String _supabaseAnonKey = dotenv.env['SUPABASE_ANON_KEY']
 
   /// Must be called once at app startup (before runApp).
   static Future<void> init() async {
