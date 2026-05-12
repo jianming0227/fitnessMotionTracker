@@ -1,42 +1,16 @@
-# Fitness Motion Tracker
+# fitnessapp
 
-## Overview
-Fitness Motion Tracker is a comprehensive application designed to help users track their fitness activities through motion detection. The application leverages advanced motion sensing technology to provide real-time analysis of physical movements and exercise performance.
+A new Flutter project.
 
-## Features
-- **Real-time Motion Tracking**: Utilize device sensors to monitor and analyze user movements during workouts and activities.
-- **Activity Logging**: Record a variety of fitness activities including running, walking, cycling, and more.
-- **Progress Tracking**: Visualize progress over time with detailed analytics and statistics.
-- **Goal Setting**: Users can set and customize their fitness goals (e.g., distance, duration, frequency).
-- **User-friendly Interface**: Simple and intuitive design for easy navigation and enhanced user experience.
+## Getting Started
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/jianming0227/fitnessMotionTracker.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd fitnessMotionTracker
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+This project is a starting point for a Flutter application.
 
-## Usage
-1. Open the application.
-2. Select the activity you want to track.
-3. Start your workout and monitor real-time feedback on your performance.
+A few resources to get you started if this is your first Flutter project:
 
-## Technologies Used
-- **Frontend**: React.js
-- **Backend**: Node.js and Express
-- **Database**: MongoDB
-- **Motion Tracking**: Integrate with device motion sensors
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-## Contributing
-Contributions are welcome! Please create a pull request or open an issue for any enhancements or bugs you may encounter.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
